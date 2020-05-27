@@ -2,15 +2,17 @@
 
 Template for writing node packages in TypeScript.
 
-To check out the sample package:
-
-```
-npm i ts-pkg-template
-```
-
 To install dependencies, run `npm i`.
 
 Before publishing, don't forget to add `"name"` to `package.json`.
+
+## Example
+
+Working example can be installed with
+
+```
+npm i @turtlepu/say-hi
+```
 
 ## Tips
 
