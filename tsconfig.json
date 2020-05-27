@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonJS",
+        "target": "ES2015",
+        "declaration": true,
+        "outDir": "dist",
+        "baseUrl": "src",
+        "plugins": [
+            { "transform": "@zerollup/ts-transform-paths" }
+        ]
+    },
+    "include": [ "src/**/*" ]
+}
