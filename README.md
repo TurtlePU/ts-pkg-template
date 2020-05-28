@@ -14,6 +14,10 @@ Working example can be installed with
 npm i @turtlepu/say-hi
 ```
 
+## .eslintrc
+
+Also available as a gist [here](https://gist.github.com/TurtlePU/abf7f08a7ec32a17e62329e7fa351b06)
+
 ## Tips
 
 * optimize dependencies: you might not need all of them
