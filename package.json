@@ -7,7 +7,8 @@
     "prepare": "npm run clean && ttsc",
     "test": "nyc npm run tests",
     "tests": "mocha -r ts-node/register -r tsconfig-paths/register \"test/**/*.test.ts\"",
-    "lint": "eslint --fix \"**/*.ts\"",
+    "lint": "eslint \"**/*.ts\"",
+    "lint-fix": "eslint --fix \"**/*.ts\"",
     "clean": "rimraf dist"
   },
   "devDependencies": {

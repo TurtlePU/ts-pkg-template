@@ -16,9 +16,10 @@ npm i @turtlepu/say-hi
 
 ## Tips
 
+* optimize dependencies: you might not need all of them
 * add homepage / repo link to `package.json` as well
-* set Git hook to run `npm run tests && npm run lint` before commit
-* optimize dependencies: you may not need all of them
+* set Git hook to run `npm run lint` before commit
+* `npm run lint-fix` to auto fix some lint errors
 * tweak `.eslintrc` to enforce desired codestyle
 
 ## Dev Dependencies overview
